@@ -39,13 +39,13 @@
   }
   @media (max-width: 700px) {
     .wave{
-      height: 300px;
+      height: 500px;
     }
     .mine{
-    font-size:300%;
+    font-size:250%;
   }
     .me{
-    font-size: 200%;}
+    font-size: 120%;}
     }
   .web{
     font-weight: 800;
