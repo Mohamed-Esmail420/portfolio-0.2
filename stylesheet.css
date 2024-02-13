@@ -27,14 +27,14 @@
     font-family: 'Minecraft', sans-serif;
     font-size: 600% ; 
     color:white;
- 
+  padding-bottom: 10px; 
   }
   .me{
     font-family: "Oswald", sans-serif;
     font-optical-sizing:auto;
     font-weight: 500;
     font-style: normal;
-    font-size: 400%;
+    font-size: 370%;
     color:white;
   }
   @media (max-width: 700px) {
