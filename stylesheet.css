@@ -38,6 +38,9 @@
     color:white;
   }
   @media (max-width: 700px) {
+      .flex{
+    padding: 20px;
+      }
     .wave{
       height: 500px;
     }
