@@ -1,0 +1,139 @@
+.wave {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 600px;
+    margin-bottom: 0%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap:100px 0px;
+    padding: 100px;
+}
+  .mine{
+    font-family: 'Minecraft', sans-serif;
+    font-size: 600% ; 
+    color:white;
+ 
+  }
+  .me{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing:auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 400%;
+    color:white;
+  }
+  @media (max-width: 700px) {
+    .wave{
+      height: 460px;
+    }
+    .mine{
+    font-size:300%;
+  }
+    .me{
+    font-size: 200%;}
+    }
+  .web{
+    font-weight: 800;
+  }
+  
+  .img{
+    border-radius: 50%;
+  }
+  .po{
+    background-color: rgb(215, 206, 206);
+    margin-top: 0%;
+    height: 500px;
+  }
+  .po >h1{
+    color: white;
+  }
+.hr>hr{
+  border-top: 10px dotted rgb(2, 43, 53);
+  border-bottom: none;
+  margin:50px auto;
+  width: 15%;
+  
+  
+  }
+  .skill{
+    display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 0%;
+gap: 100px;
+ }
+ .skill p {
+  font-family: var(--bs-body-font-family);
+  font-weight: 200;
+
+ }
+ @media (max-width: 480px) {
+ .skill {
+  flex-direction: column; 
+  gap: 50px;
+  padding: auto;
+}
+.skill .m{
+  height: 150px;
+  width: 180px;
+  padding: 0px 10px;
+}
+}
+.Design>img{
+  float: left;
+  height: 200px;
+  width: 250px;
+  padding-right: 20px;
+}
+.m{
+  float: left;
+  padding: 20px;
+  height: 250px;
+  width: 250px;
+  padding:  0px 20px 50px;
+}
+.my{
+  display: flex;
+  justify-content: center;
+  align-items: center   ;
+  margin-bottom: 100px;
+}
+.wave2{
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  margin-bottom: 0%;
+  height: 70px;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+@media (max-width: 480px) {
+  .wave2{
+    height: 110px;
+  }
+}
