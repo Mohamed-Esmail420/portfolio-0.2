@@ -27,7 +27,7 @@
     font-family: 'Minecraft', sans-serif;
     font-size: 600% ; 
     color:white;
-  padding-bottom: 10px; 
+  padding-bottom: 5px; 
   }
   .me{
     font-family: "Oswald", sans-serif;
@@ -42,7 +42,7 @@
     padding: 20px;
       }
     .wave{
-      height: 500px;
+      height: 550px;
     }
     .mine{
     font-size:300%;
